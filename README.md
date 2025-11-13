@@ -1,7 +1,7 @@
 <div align="center">
   <h1>💻 My Portfolio</h1>
   <p>Personal portfolio showcasing skills, projects, and contact information 🎨🚀</p>
-  <a href="https://hamiparsa.github.io/My-Profile/">
+  <a href="https://honestdev125.github.io/My-Profile/">
     <img src="https://img.shields.io/badge/View_Live_Project-1DA1F2?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </div>
@@ -73,7 +73,7 @@ Project highlights:
 
 ## 👨‍💻 Author
 
-**Developed by:** [Hami Parsa](https://github.com/hamiparsa)  
+**Developed by:** [Niku Namada](https://github.com/Akame007)  
 💬 Front-End Developer | Modern, interactive web projects  
 
 ---

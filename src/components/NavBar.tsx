@@ -37,7 +37,7 @@ export default function NavBar() {
               bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 
               bg-clip-text text-transparent"
           >
-            Hami Parsa
+            Niku Namada
             <PiLaptopThin className="ml-1 mt-1.5 text-pink-400" />
           </Link>
 

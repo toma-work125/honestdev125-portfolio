@@ -1,6 +1,6 @@
 "use client";
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
@@ -34,13 +34,13 @@ export default function Footer() {
           <div className="absolute inset-0 rounded-3xl border-2 border-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-50 blur-md -z-10"></div>
 
           <motion.h1 whileHover={{ scale: 1.05 }} className="text-3xl font-extrabold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent tracking-wide">
-            Hami Parsa
+            Niku Namada
           </motion.h1>
 
           <div className="flex gap-10">
             {[
-              { icon: <FaGithub size={32} />, link: "https://github.com/hamiparsa", color: "hover:shadow-pink-500/60" },
-              { icon: <FaLinkedin size={32} />, link: "https://www.linkedin.com/in/hami-parsa-146ba437a/", color: "hover:shadow-blue-500/60" },
+              { icon: <FaGithub size={32} />, link: "https://github.com/Honestdev125", color: "hover:shadow-pink-500/60" },
+              { icon: <FaDiscord size={32} />, link: "https://discord.com/users/1230318526544351263", color: "hover:shadow-blue-500/60" },
             ].map((item, i) => (
               <motion.a
                 key={i}
@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
 
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="text-gray-300 font-medium text-center md:text-right text-lg">
-            © {new Date().getFullYear()} Hami Parsa. All Rights Reserved.
+            © {new Date().getFullYear()} Niku Namada. All Rights Reserved.
           </motion.p>
         </motion.div>
       </div>
