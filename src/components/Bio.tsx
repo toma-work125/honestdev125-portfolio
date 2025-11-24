@@ -121,7 +121,7 @@ export default function Bio() {
 
       {/* ===== Bio Paragraph ===== */}
       <p className="text-white text-center mt-20 max-w-3xl mx-auto text-lg sm:text-xl leading-relaxed">
-        Hi, Im <span className="font-bold text-pink-500">Niku Namada</span> — a <span className="text-indigo-400 font-semibold">passionate Front-End Developer</span> crafting <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 font-bold">modern, interactive, and visually stunning</span> web experiences.
+        Hi, Im <span className="font-bold text-pink-500">Tomawork</span> — a <span className="text-indigo-400 font-semibold">passionate Front-End Developer</span> crafting <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 font-bold">modern, interactive, and visually stunning</span> web experiences.
       </p>
 
       {/* ===== Custom Animations ===== */}
