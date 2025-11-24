@@ -24,7 +24,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Niku Namada",
+  title: "Tomawork",
   description: "Personal portfolio website built with Next.js",
 };
 

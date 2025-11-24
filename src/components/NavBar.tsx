@@ -32,12 +32,12 @@ export default function NavBar() {
         >
           {/* Logo */}
           <Link
-            href="/"
+            href="/images/logo.png"
             className="text-2xl flex font-extrabold 
               bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 
               bg-clip-text text-transparent"
           >
-            Niku Namada
+            Tomawork
             <PiLaptopThin className="ml-1 mt-1.5 text-pink-400" />
           </Link>
 

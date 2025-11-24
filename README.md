@@ -73,7 +73,7 @@ Project highlights:
 
 ## 👨‍💻 Author
 
-**Developed by:** [Niku Namada](https://github.com/Akame007)  
+**Developed by:** [Tomawork](https://github.com/honestdev125)  
 💬 Front-End Developer | Modern, interactive web projects  
 
 ---

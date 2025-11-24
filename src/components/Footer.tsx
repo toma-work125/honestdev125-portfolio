@@ -3,6 +3,7 @@
 import { FaDiscord, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import { QiitaIcon } from '@/components/icons/QiitaIcon';
 
 export default function Footer() {
   const [particles, setParticles] = useState<{ top: number; left: number; xOffset: number; delay: number }[]>([]);
@@ -34,13 +35,14 @@ export default function Footer() {
           <div className="absolute inset-0 rounded-3xl border-2 border-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-50 blur-md -z-10"></div>
 
           <motion.h1 whileHover={{ scale: 1.05 }} className="text-3xl font-extrabold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent tracking-wide">
-            Niku Namada
+            Tomawork
           </motion.h1>
 
           <div className="flex gap-10">
             {[
               { icon: <FaGithub size={32} />, link: "https://github.com/Honestdev125", color: "hover:shadow-pink-500/60" },
               { icon: <FaDiscord size={32} />, link: "https://discord.com/users/1230318526544351263", color: "hover:shadow-blue-500/60" },
+              { icon: <QiitaIcon size={32} />, link: "https://qiita.com/Tomawork", color: "hover:shadow-pink-500/60" },
             ].map((item, i) => (
               <motion.a
                 key={i}
