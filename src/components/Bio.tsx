@@ -82,11 +82,11 @@ export default function Bio() {
           <div className="absolute inset-0 rounded-2xl blur-xl opacity-30 "></div>
 
           <Image
-            src="https://yourimageshare.com/ib/mgAIapeCZF.jpg"
+            src="https://yourimageshare.com/ib/dQ63jjeuax.png"
             width={400}
             height={400}
             alt="Tomawork"
-            className="relative mt-5 rounded-2xl shadow-2xl border border-gray-800"
+            className="relative mt-5 rounded-2xl shadow-2xl border border-gray-800 maxheight"
           />
         </motion.div>
 

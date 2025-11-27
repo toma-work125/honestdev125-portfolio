@@ -40,7 +40,7 @@ export default function Footer() {
 
           <div className="flex gap-10">
             {[
-              { icon: <FaGithub size={32} />, link: "https://github.com/Honestdev125", color: "hover:shadow-pink-500/60" },
+              { icon: <FaGithub size={32} />, link: "https://github.com/toma-work125", color: "hover:shadow-pink-500/60" },
               { icon: <FaDiscord size={32} />, link: "https://discord.com/users/1230318526544351263", color: "hover:shadow-blue-500/60" },
               { icon: <QiitaIcon size={32} />, link: "https://qiita.com/Tomawork", color: "hover:shadow-pink-500/60" },
             ].map((item, i) => (
@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
 
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="text-gray-300 font-medium text-center md:text-right text-lg">
-            © {new Date().getFullYear()} Niku Namada. All Rights Reserved.
+            © {new Date().getFullYear()} Tomawork. All Rights Reserved.
           </motion.p>
         </motion.div>
       </div>

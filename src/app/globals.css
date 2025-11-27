@@ -9,3 +9,8 @@ html, body {
   /* Enable smooth scrolling for anchor links */
   scroll-behavior: smooth;
 }
+
+.maxheight {
+  max-height:115%;
+  max-weight:90%;
+}
